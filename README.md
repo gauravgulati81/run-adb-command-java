@@ -1,4 +1,4 @@
-# run-adb-command-java
+# run-adb-commands-java
 Java class to execute adb commands. For automation scripts (selenium, appium etc.) written in java.
 
 ### Setup
@@ -14,7 +14,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import io.appium.java_client.android.AndroidDriver;
 
 public class Test {
