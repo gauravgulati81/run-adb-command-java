@@ -1,10 +1,10 @@
 # run-adb-command-java
-Java class to execute adb commands. For automation scripts (selenium, appium etc.) written in java
+Java class to execute adb commands. For automation scripts (selenium, appium etc.) written in java.
 
 ### Setup
 1. Include class AdbCommand.java in the project
 2. Pass the adb directory location as a parameter while creating an object of the class
-3. Pass the desired adb command to method runCommand to execute this command
+3. Pass the desired adb command to the method **_runCommand_** to execute this command
 
 ### Example
 ```
